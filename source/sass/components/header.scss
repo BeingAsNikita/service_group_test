@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header__top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.header__middle {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding-bottom: 18px;
+    padding-top: 16px;
+}
+
+.header__bottom {
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+.header__location {
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.header__location-select{
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.header__location-address {
+    font-size: 13px;
+}
+
+.header__logo  {
+
+    span {
+        font-size: 45px;
+    }
+}
+
+.header__search {
+    width: 428px;
+    margin-left: 65px;
+    margin-right: 50px;
+}
+
+.header__search-field {
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 47px;
+    padding-right: 10px;
+    border: 1px solid $primary-dark;
+
+    &::placeholder {
+        font-size: 14px;
+    }
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__contacts-phoneNumber {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header__contacts-time {
+    font-size: 13px;
+    margin-left: 22px;
+}
+
+.header__callback {
+    margin-left: auto;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeingAsNikita/Service-Group.git"
+  },
+  "author": "Nikita Kukhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeingAsNikita/Service-Group/issues"
+  },
+  "homepage": "https://github.com/BeingAsNikita/Service-Group#readme"
+}

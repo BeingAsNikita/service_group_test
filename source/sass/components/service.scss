@@ -1,0 +1,42 @@
+.services__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services__item {
+    padding-left: 17px;
+    border-left: 1px solid#373737;
+    text-align: center;
+
+    &:first-child {
+        border: none;
+    }
+}
+
+.service__link {
+    position: relative;
+    padding-left: 20px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: -15px;
+        top: 2px;
+
+        background-repeat: no-repeat;
+        
+    }
+
+    &--smartphone  {
+        &::before  {
+            background-image: url("../img/smartphone-call.svg");
+        }
+    }
+}
