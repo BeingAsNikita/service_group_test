@@ -9,12 +9,17 @@
 }
 
 .services__item {
-    padding-left: 17px;
+    padding-left: 33px;
     border-left: 1px solid#373737;
     text-align: center;
 
     &:first-child {
         border: none;
+    }
+
+    &--all {
+        padding-left: 10px;
+        padding-right: 32px;
     }
 }
 
@@ -28,15 +33,51 @@
         width: 25px;
         height: 25px;
         left: -15px;
-        top: 2px;
+        bottom: -5px;
 
         background-repeat: no-repeat;
         
     }
 
     &--smartphone  {
+        padding-left: 10px;
         &::before  {
             background-image: url("../img/smartphone-call.svg");
+            left: -27px;
         }
+    }
+
+    &--ipad  {
+        &::before  {
+            background-image: url("../img/icon.svg");
+        }
+    }
+
+    &--book  {
+        &::before  {
+            background-image: url("../img/laptop.svg");
+        }
+    }
+
+    &--monoblock  {
+        &::before  {
+            background-image: url("../img/imac.svg");
+        }
+    }
+
+    &--computer  {
+        &::before  {
+            background-image: url("../img/pc-computer-with-monitor.svg");
+        }
+    }
+
+    &--tv {
+        &::before  {
+            background-image: url("../img/pc-computer-with-monitor.svg");
+        }
+    }
+
+    &--all {
+        padding-left: 10px;
     }
 }

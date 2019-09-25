@@ -1,0 +1,55 @@
+.calculate {
+    padding-top: 500px;
+}
+
+.calculate__content {
+    background-image: url('../img/calculate-bg.png');
+    background-size: cover;
+
+
+}
+
+.calculate__shade {
+    background-color: rgba(25, 25, 25, 0.85);
+    padding-top: 122px;
+    text-align: center;
+    padding-bottom: 72px;
+
+    &--invert {
+        padding-top: 132px;
+        padding-bottom: 132px;
+    }
+}
+
+.calculate__text {
+    font-size: 20px;
+    color: $primary-light;
+    margin-bottom: 25px;
+}
+
+.calculate__wrap  {
+    margin: 0 auto;
+    width: 775px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 89px;
+
+    &--invert {
+        margin-bottom: 0;
+    }
+
+    a {
+        width: 225px;
+    }
+
+    select {
+        width: 250px;
+        background-color: $primary-light;
+        border: none;
+        font-size: 18px;
+        padding-left: 22px;
+        border-radius: 0;
+    }
+}

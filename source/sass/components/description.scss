@@ -1,0 +1,49 @@
+.description {
+    padding-top: 108px;
+    padding-bottom: 230px;
+
+    background-image: url('../img/Ellipse-2.svg');
+    background-position: 0 85px;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+
+        width: 489px;
+        height: 555px;
+        top: 200px;
+        left: 11%;
+
+        background-image: url('../img/notebook-2.png')
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+
+        width: 450px;
+        height: 450px;
+        top: 606px;
+        left: 14%;
+
+        background-image: url('../img/phones-2.png')
+    }
+
+    img {
+        position: absolute;
+    }
+}
+
+.descrription__text {
+    width: 570px;
+    margin-top: 164px;
+    
+    margin-left: 52%;
+    p {
+        margin: 0;
+    }
+}
+

@@ -1,0 +1,49 @@
+.form {
+    width: 630px;
+    padding-bottom: 10px;
+    padding-top: 54px;
+    margin: auto;
+    text-align: left;
+
+    &--invert {
+        padding-top: 0;
+    }
+}
+
+.form__label--light {
+    color: $primary-light;
+}
+
+.form__title {
+    font-size: 25px;
+    width: 455px;
+}
+
+.form__text {
+    font-size: 18px;
+    width: 455px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 18px;
+
+    input {
+        width: 214px;
+        background-color: $input;
+        border: none;
+        padding: 14px 10px 13px 20px;
+
+        &::placeholder {
+            font-size: 14px;
+            color: black;
+        }
+    }
+}
+
+.form__warning {
+    color: $text-pale;
+    font-size: 13px;
+}

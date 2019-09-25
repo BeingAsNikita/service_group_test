@@ -1,0 +1,114 @@
+.repair {
+    padding-top: 170px;
+    padding-bottom: 925px;
+    background-color: $primary-bg;
+
+    position: relative;
+}
+
+.repair__wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 279px;
+    left: 11%;
+    right: 11%;
+}
+
+.repair__section {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &--accent{
+        background-color: $accent-blue;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    &--first {
+        background-image: url('../../img/repair-phones.png');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+
+    &--last {
+        background-image: url('../../img/repair-block.png');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+.repair__item {
+    width: 49%;
+    background-color: $primary-light;
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 2px;
+
+    padding: 20px;
+    padding-bottom: 28px;
+}
+
+.repair__content {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    color: $primary-light;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.repair__content-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.repair__item-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.repair__link {
+    transition: ease-in all 0.3s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+
+    
+    &:hover {
+        background: rgba(67, 83, 255, 0.5);
+
+        &::before {
+            content: "";
+            position: absolute;
+    
+            width: 58px;
+            height: 59px;
+            top:50%;
+            left: 50%;
+            margin-top: -30px;
+            margin-left: -30px;
+    
+            background-image: url('../img/magnifying-glass.svg')
+    
+            
+        }
+    }
+
+
+}

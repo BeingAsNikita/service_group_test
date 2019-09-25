@@ -38,3 +38,36 @@ body {
     background-color: $primary-dark;
     color: $primary-light;
   }
+
+  .section__title {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+
+    &--invert {
+      color: $primary-light;
+      font-size: 35px;
+    }
+  }
+
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    img {
+      animation: load 2s infinite ease-in-out;
+      
+    }
+  }
+
+  @keyframes load {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }

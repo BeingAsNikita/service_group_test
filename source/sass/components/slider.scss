@@ -1,0 +1,46 @@
+.slider {
+    background-color: $primary-light;
+    background-image: url('../img/preview-ellipse.png');
+    background-repeat: no-repeat;
+    background-position: -11px 11px;
+
+} 
+
+.slider__wrap {
+    padding-left: 70px;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.slider__decoration {
+    flex: 1;
+    background-image: url('../img/notebook.png');
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+
+        width: 97px;
+        height: 202px;
+        bottom: 82px;
+        left: 105px;
+        background-image: url('../img/phone.png')
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+
+        width: 114px;
+        height: 64px;
+        
+        bottom: 15px;
+        left: -30px;
+        background-image: url('../img/airpods.png')
+    }
+}

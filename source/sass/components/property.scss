@@ -1,0 +1,74 @@
+.property {
+    padding-top: 98px;
+    padding-bottom: 144px;
+    background-color: $primary-bg;
+}
+
+.property__list {
+    margin-top: 83px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.property__item {
+    padding: 117px 26px 48px 26px;
+    width: 370px;
+    background-color: $primary-light;
+    margin-bottom: 30px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+
+        width: 85px;
+        height: 85px;
+
+        top: 0;
+        left: 0;
+
+        background-color: $accent-blue;
+    }
+
+    &--clock {
+        &::before {
+            background-image: url('../img/clock.svg');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+
+    &--truck {
+        &::before {
+            background-image: url('../img/delivery-truck.svg');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+
+    &--purse {
+        &::before {
+            background-image: url('../img/purse.svg');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+}
+
+.property__text {
+    position: relative;
+
+    &::after  {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+
+        width: 69px;
+        height: 2px;
+        background-color: $accent-blue;
+    }
+}

@@ -1,0 +1,19 @@
+.footer__copyryght {
+    background-color: $primary-dark;
+    color: $primary-light;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 32px;
+
+    a {
+        text-decoration: underline;
+    }
+}
