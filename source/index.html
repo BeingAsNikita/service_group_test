@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-
+<!DOCTYPE  html>
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,10 +20,12 @@
                         <div class="header__location">
                             <div class="header__location-select">
                                 <span>Ваш город:</span>
-                                <select name="location" id="location-top">
-                                    <option value="">Санкт-Петербург</option>
-                                    <option value="">Москва</option>
-                                </select>
+                                
+                                    <select name="location" id="location-top">
+                                        <option value="">Санкт-Петербург</option>
+                                        <option value="">Москва</option>
+                                    </select>
+                               
                             </div>
                             <div class="header__location-address">
                                 <span>Мучной переулок, 32134 Садовая улица название</span>
@@ -64,7 +66,7 @@
                             </div>
 
                             <div class="header__search">
-                                <!--<input type="submit" class="header__searcht-btn">  -->
+                                <button type="submit" class="header__searcht-btn"></button>
                                 <input type="search" placeholder="Поиск" class="header__search-field">
                             </div>
 
@@ -127,8 +129,11 @@
                                                         <input type="text" placeholder="+7(___)-___-__-__">
                                                         <button class="button">Оставить заявку</button>
                                                     </div>
-                                                    <input type="checkbox" id="form__sms">
-                                                    <Label for="form__sms">Связаться с Вами по SMS?</Label>
+                                                    <div class="check__wrap">
+                                                            <input  type="checkbox" id="form__sms0" class="visually-hidden checkbox">
+                                                            <span class="form__check"></span>
+                                                            <Label for="form__sms0" class="form__label">Связаться с Вами по SMS?</Label>
+                                                        </div>
                                                     <p class="form__warning">Нажимая кнопку “Оставить заявку”, я даю согласие на обработку персональных данных</p>
                                                 </form>
                                                 <div class="slider__decoration">
@@ -147,8 +152,11 @@
                                                                 <input type="text" placeholder="+7(___)-___-__-__">
                                                                 <button class="button">Оставить заявку</button>
                                                             </div>
-                                                            <input type="checkbox" id="form__sms">
-                                                            <Label for="form__sms">Связаться с Вами по SMS?</Label>
+                                                            <div class="check__wrap">
+                                                                <input  type="checkbox" id="form__sms1" class="visually-hidden checkbox">
+                                                                <span class="form__check"></span>
+                                                                <Label for="form__sms1" class="form__label">Связаться с Вами по SMS?</Label>
+                                                            </div>
                                                             <p class="form__warning">Нажимая кнопку “Оставить заявку”, я даю согласие на обработку персональных данных</p>
                                                         </form>
                                                         <div class="slider__decoration">
@@ -167,8 +175,11 @@
                                                                 <input type="text" placeholder="+7(___)-___-__-__">
                                                                 <button class="button">Оставить заявку</button>
                                                             </div>
-                                                            <input type="checkbox" id="form__sms">
-                                                            <Label for="form__sms">Связаться с Вами по SMS?</Label>
+                                                            <div class="check__wrap">
+                                                                    <input  type="checkbox" id="form__sms2" class="visually-hidden checkbox">
+                                                                    <span class="form__check"></span>
+                                                                    <Label for="form__sms2" class="form__label">Связаться с Вами по SMS?</Label>
+                                                                </div>
                                                             <p class="form__warning">Нажимая кнопку “Оставить заявку”, я даю согласие на обработку персональных данных</p>
                                                         </form>
                                                         <div class="slider__decoration">
@@ -187,8 +198,11 @@
                                                                 <input type="text" placeholder="+7(___)-___-__-__">
                                                                 <button class="button">Оставить заявку</button>
                                                             </div>
-                                                            <input type="checkbox" id="form__sms">
-                                                            <Label for="form__sms">Связаться с Вами по SMS?</Label>
+                                                            <div class="check__wrap">
+                                                                    <input  type="checkbox" id="form__sms3" class="visually-hidden checkbox">
+                                                                    <span class="form__check"></span>
+                                                                    <Label for="form__sms3" class="form__label">Связаться с Вами по SMS?</Label>
+                                                                </div>
                                                             <p class="form__warning">Нажимая кнопку “Оставить заявку”, я даю согласие на обработку персональных данных</p>
                                                         </form>
                                                         <div class="slider__decoration">
@@ -255,6 +269,13 @@
                                         <span class="popular__item-price">от 750 руб.</span>
                                         <a href="#" class="button">Оставить заявку</a>
                                     </div>
+                                    <div class="popular__item">
+                                            <img src="img/popular-4.svg" alt="img"  class="popular--coffee">
+                                            <span class="popular__item-title ">LG 17-ab204ng</span>
+                                            <span class="popular__item-text">Ремонт от 30 мин.</span>
+                                            <span class="popular__item-price">от 750 руб.</span>
+                                            <a href="#" class="button">Оставить заявку</a>
+                                        </div>
                         
 
                       </div>
@@ -265,8 +286,8 @@
                     <h3 class="section__title">Ремонтируем</h3>
                     <div class="repair__wrap">
                         <div class="repair__section repair__section--accent repair__section--first">
-                            <a href="#" class="repair__link">
-                                <div class="repair__content"></a>
+                            <a href="#" class="repair__link"></a>
+                                <div class="repair__content">
                                     <span class="repair__content-title">Смартфоны</span>
                                     <span>Более 300 брендов, срочный ремонт от 30 минут.</span>
                                 </div>
@@ -328,8 +349,8 @@
                         </div>
 
                         <div class="repair__section repair__section--accent repair__section--last">
-                            <a href="#" class="repair__link">
-                            <div class="repair__content"></a>
+                            <a href="#" class="repair__link"></a>
+                            <div class="repair__content">
                                 <span class="repair__content-title">Компьютеры</span>
                                 <span>Срочный ремонт неисправностей любой сложности</span>
                             </div>  
@@ -347,20 +368,30 @@
                             <p class="calculate__text">Узнайте стоимость ремонта в три клика!</p>
 
                             <div class="calculate__wrap">
-                                <select name="typeOfGadget" id="typeOfGadget">
-                                    <option value="1">Смартфон</option>
-                                    <option value="2">Ноутбук</option>
-                                    <option value="3">Моноблок</option>
-                                    <option value="4">Компьютер</option>
-                                    <option value="0" selected>Тип устройства</option>
-                                </select>
-                                <select name="breakage" id="breakage">
-                                    <option value="1">Поломка</option>
-                                    <option value="2">Поломка</option>
-                                    <option value="3">Поломка</option>
-                                    <option value="4">Поломка</option>
-                                    <option value="0">Поломка</option>
-                                </select>
+                            
+                            
+                               
+
+                                <div id="animal-select" class="customselect">
+                                        <button class="title">Тип устройства</button>
+                                        <ul>
+                                          <li data-value="bird">Смартфон</li>
+                                          <li data-value="fish">Ноутбуки</li>
+                                          <li data-value="animal">Моноблоки</li>
+                                          <li data-value="dino">Компьютеры</li>
+                                    
+                                        </ul>
+                                      </div>
+
+                                      <div id="food-select" class="customselect">
+                                            <button class="title">Поломка</button>
+                                            <ul>
+                                              <li data-value="carnivore">Поломка</li>
+                                              <li data-value="herbivore">Поломка</li>
+                                              <li data-value="omnivore">Поломка</li>
+                                            </ul>
+                                        </div>
+                                
                                 <a href="#" class="button">Рассчитать стоимость</a>
                             </div>
                             <div class="loading">
@@ -380,6 +411,7 @@
                     </div>
                     <div class="video__content">
                         <img src="img/video.png" alt="video">
+                        <button class="video__play"></button>
                     </div>
                 </div>
             </section>
@@ -531,7 +563,7 @@
             </div>
 
             <footer  class="footer">
-                    <header class="header">
+                    <div class="header">
                             <div class="container">
                                 <div class="header__top">
                                 
@@ -539,7 +571,7 @@
                                     <div class="header__location">
                                         <div class="header__location-select">
                                             <span>Ваш город:</span>
-                                            <select name="location" id="location-top">
+                                            <select name="location" id="location-bot">
                                                 <option value="">Санкт-Петербург</option>
                                                 <option value="">Москва</option>
                                             </select>
@@ -583,7 +615,7 @@
                                         </div>
             
                                         <div class="header__search">
-                                            <!--<input type="submit" class="header__searcht-btn">  -->
+                                            <button type="submit" class="header__searcht-btn"></button>
                                             <input type="search" placeholder="Поиск" class="header__search-field">
                                         </div>
             
@@ -623,7 +655,7 @@
                                     </div>
                                 </div>
                             </div>
-                    </header>   
+                        </div>   
                     <div class="footer__copyryght"> 
                         <div class="container footer__content">
                             <span>Компания © 2019 Все права защищены</span>
@@ -637,5 +669,6 @@
                     crossorigin="anonymous"></script>
             <script src="libs/owl/owl.carousel.min.js"></script>
             <script src="js/main.js"></script>
+             <script  src="js/select.js"></script>
     </body>
 </html>

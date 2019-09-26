@@ -1,0 +1,58 @@
+.customselect {
+  width: 200px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.customselect .title {
+  height: 45px;
+  font-size: 20px;
+  background: white;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 2px;
+  line-height: 14px;
+  cursor: pointer;
+  text-align: left;
+  padding-left:  27px;
+  border: none;
+
+  &:active,
+  &:hover {
+    background-color: $accent-blue;
+    color: $primary-light;
+  }
+}
+
+.customselect li {
+  padding: 2px;
+  cursor: pointer;
+  height: 45px;
+  padding-left:  27px;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  text-align: left;
+}
+
+
+
+.customselect li:hover {
+    background-color: $accent-blue;
+    color: $primary-light;
+}
+
+.customselect ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.customselect.open ul {
+  display: block;
+}

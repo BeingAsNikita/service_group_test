@@ -7,12 +7,13 @@ $(document).ready(function(){
         dots: true
     });
 
-        $("#carousel-2").owlCarousel({
+    $("#carousel-2").owlCarousel({
         loop:true,
         margin: 5,
-        nav:true,
+        nav: true,
         items: 5,
-        dots: true
+        dots: false
+    
     });
 
   });
